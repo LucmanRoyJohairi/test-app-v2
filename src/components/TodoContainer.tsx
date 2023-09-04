@@ -14,7 +14,7 @@ const TodoContainer = () => {
           // "https://jsonplaceholder.typicode.com/todos"
           "http://206.189.147.71:10100/api/projects"
         );
-        setTodos(res.data);
+        setTodos(res.data.data);
       } catch (error) {
         console.error("Error fetching todos:", error);
       }
