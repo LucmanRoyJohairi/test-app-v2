@@ -11,7 +11,8 @@ const TodoContainer = () => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "https://jsonplaceholder.typicode.com/todos"
+          // "https://jsonplaceholder.typicode.com/todos"
+          "http://206.189.147.71:10100/api/projects"
         );
         setTodos(res.data);
       } catch (error) {
