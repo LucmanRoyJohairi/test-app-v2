@@ -1,8 +1,8 @@
 import TodoContainer from "@/components/TodoContainer";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return <TodoContainer />;
 };
 
-export default page;
+export default Page;
