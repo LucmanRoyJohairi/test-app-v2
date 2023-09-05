@@ -2,7 +2,7 @@ import TodoContainer from "@/components/TodoContainer";
 import React from "react";
 
 const page = () => {
-  return <TodoContainer />;
+  return <div>Homepage</div>;
 };
 
 export default page;
